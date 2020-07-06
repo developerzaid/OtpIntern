@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="164dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="128dp"
+
+        android:background="@drawable/color_shape"
+        android:elevation="10dp">
+
+
+        <EditText
+            android:id="@+id/regName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginRight="16dp"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:textColorHint="#ffffff" />
+
+
+        <EditText
+            android:id="@+id/regEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/regName"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginRight="16dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColorHint="#ffffff" />
+
+
+        <EditText
+            android:id="@+id/regPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/regEmail"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginRight="16dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColorHint="#ffffff" />
+
+
+        <Button
+            android:id="@+id/RegisterLoginInfoButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="36dp"
+            android:background="@drawable/white_gradient"
+            android:backgroundTint="#ffffff"
+            android:text="SIGN UP" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
